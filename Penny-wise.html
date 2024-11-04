@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Tracker</title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="script2.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="weekly-spending">
+            <p>Total Weekly Spending</p>
+            <h1 id="total-spending">$0.00</h1>
+        </div>
+
+        <div class="create-budget">
+            <button onclick="createBudget()">Create Weekly Budget</button>
+            <button class="add-button">+</button>
+        </div>
+
+        <div class="date-selector">
+            <button onclick="previousDay()">&lt;</button>
+            <span id="current-date">Monday Nov 4th, 2024</span>
+            <button onclick="nextDay()">&gt;</button>
+        </div>
+
+        <div class="expense-list">
+            <div class="expense-item">
+                <div class="description">Expense 1</div>
+                <div class="amount">$0.00</div>
+            </div>
+            <div class="expense-item">
+                <div class="description">Expense 2</div>
+                <div class="amount">$0.00</div>
+            </div>
+            <div class="expense-item">
+                <div class="description">Expense 3</div>
+                <div class="amount">$0.00</div>
+            </div>
+            <div class="expense-item">
+                <div class="description">Expense 4</div>
+                <div class="amount">$0.00</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
